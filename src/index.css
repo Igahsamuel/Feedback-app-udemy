@@ -40,7 +40,7 @@ header {
   margin: 20px 0;
   position: relative;
 }
-.active{
+.active {
   color: red;
   background-color: #000;
 }
@@ -96,6 +96,10 @@ header {
 
 [type='radio'] {
   opacity: 0;
+}
+
+input[type='ratio'] {
+  display: none;
 }
 
 [type='radio']:checked ~ label {
